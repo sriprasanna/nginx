@@ -9,11 +9,11 @@ recipe 'nginx',         'Installs nginx package and sets up configuration with D
 recipe 'nginx::source', 'Installs nginx from source and sets up configuration with Debian apache style with sites-enabled/sites-available'
 
 depends 'apt',             '~> 3.0.0'
-depends 'bluepill',        '~> 2.3'
-depends 'build-essential', '~> 2.0'
-depends 'ohai',            '~> 2.0'
-depends 'runit',           '~> 1.2'
-depends 'yum-epel',        '~> 0.3'
+depends 'bluepill',        '~> 2.4.3'
+depends 'build-essential', '~> 3.2.0'
+depends 'ohai',            '~> 3.0.1'
+depends 'runit',           '~> 1.7.6'
+depends 'yum-epel',        '~> 0.7.0'
 
 supports 'amazon'
 supports 'centos'
